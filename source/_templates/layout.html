@@ -1,0 +1,16 @@
+{% extends "!layout.html" %}
+
+{% block htmltitle %}
+<title>{{ title }} &mdash; Superficial Knowledge &mdash; Renegade Project</title>
+{% endblock %}
+
+{% block sidebartitle %}
+    <a href="https://github.com/edk2-porting" class="home" >Renegade Project</a>
+    {{ super() }}
+
+{% endblock %}
+{% block menu %}
+    {{ super() }}
+    <p class="caption"><span class="caption-text">Related Documents</span></p>
+    <li class="toctree-l1"><a class="reference internal" href="https://google.com/">Google</a></li>
+{% endblock %}
