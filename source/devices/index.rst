@@ -7,3 +7,4 @@ Devices
 
    comparison.md
    linux.md
+   specific/index
