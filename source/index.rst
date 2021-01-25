@@ -18,3 +18,4 @@ as well as awful English grammar ahead!
    windows/index
    edk2/index
    devices/index
+   tools/index

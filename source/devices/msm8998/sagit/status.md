@@ -1,4 +1,4 @@
-Xiaomi Mi 8 (dipper)
+Status
 ======================
 
 TBD

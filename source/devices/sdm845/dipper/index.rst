@@ -1,9 +1,9 @@
-Device-Specific
-=====================
+Xiaomi Mi 8
+=========================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
 
-   dipper.md
+   status.md
    
