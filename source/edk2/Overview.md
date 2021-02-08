@@ -16,7 +16,7 @@ On most recent Qualcomm devices, there are two partitions called xbl and abl.
 
 Unfortunately, xbl and abl are both signed on retail devices. We can't make any modifications to them. Thus, it's impossible to boot Windows using stock bootloader.
 
-What we are doing here is to make our UEFI Firmware *look like* a Linux kernel. It's done by adding a piece of magic code on top of the image, and also appending device tree to it. In this way, abl will be happy with the provided image.
+What we are doing here is to make our UEFI Firmware *look like* a Linux kernel. It's done by adding a piece of magic header on top of the image, and also appending device tree to it. In this way, abl will be happy with the provided image.
 
 ## MemoryMap
 
